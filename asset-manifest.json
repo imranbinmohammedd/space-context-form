@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/space-context-form/static/css/main.5ea01bba.css",
+    "main.js": "/space-context-form/static/js/main.fa3115fc.js",
+    "static/js/453.a9f6a2e3.chunk.js": "/space-context-form/static/js/453.a9f6a2e3.chunk.js",
+    "index.html": "/space-context-form/index.html",
+    "main.5ea01bba.css.map": "/space-context-form/static/css/main.5ea01bba.css.map",
+    "main.fa3115fc.js.map": "/space-context-form/static/js/main.fa3115fc.js.map",
+    "453.a9f6a2e3.chunk.js.map": "/space-context-form/static/js/453.a9f6a2e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea01bba.css",
+    "static/js/main.fa3115fc.js"
+  ]
+}

@@ -28,7 +28,7 @@ function App() {
     setError('');
 
     try {
-      await axios.post('http://localhost:8080/api/leads', form);
+      await axios.post('https://space-context-api.onrender.com/api/leads', form);
       setSubmitted(true);
     } catch (err) {
       setError('Something went wrong. Please try again later.');

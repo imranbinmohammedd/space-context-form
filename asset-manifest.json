@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/space-context-form/static/css/main.9cea4613.css",
-    "main.js": "/space-context-form/static/js/main.242358d7.js",
+    "main.css": "/space-context-form/static/css/main.50365c51.css",
+    "main.js": "/space-context-form/static/js/main.3f5cecdc.js",
     "static/js/453.a9f6a2e3.chunk.js": "/space-context-form/static/js/453.a9f6a2e3.chunk.js",
     "index.html": "/space-context-form/index.html",
-    "main.9cea4613.css.map": "/space-context-form/static/css/main.9cea4613.css.map",
-    "main.242358d7.js.map": "/space-context-form/static/js/main.242358d7.js.map",
+    "main.50365c51.css.map": "/space-context-form/static/css/main.50365c51.css.map",
+    "main.3f5cecdc.js.map": "/space-context-form/static/js/main.3f5cecdc.js.map",
     "453.a9f6a2e3.chunk.js.map": "/space-context-form/static/js/453.a9f6a2e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cea4613.css",
-    "static/js/main.242358d7.js"
+    "static/css/main.50365c51.css",
+    "static/js/main.3f5cecdc.js"
   ]
 }

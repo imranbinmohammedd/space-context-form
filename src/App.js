@@ -15,7 +15,6 @@ function App() {
     siteArea: '',
     projectType: '',
     preferredTimeline: '',
-    duration: '',
     budgetRange: '',
     source: 'Website',
   });
@@ -32,7 +31,6 @@ function App() {
     const notes = [
       form.address ? `Address: ${form.address}` : '',
       form.siteArea ? `Site Area: ${form.siteArea}` : '',
-      form.duration ? `Expected Duration: ${form.duration}` : '',
     ]
       .filter(Boolean)
       .join(' | ');
@@ -229,41 +227,23 @@ function App() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm text-slate-600 mb-1.5">
-                      Preferred Start Timeline
-                    </label>
-                    <select
-                      name="preferredTimeline"
-                      value={form.preferredTimeline}
-                      onChange={handleChange}
-                      className="w-full border border-gray-300 px-3.5 py-2.5 text-sm text-slate-800 outline-none focus:border-slate-800 transition bg-white"
-                    >
-                      <option value="">Select timeline</option>
-                      <option value="Immediately">Immediately</option>
-                      <option value="Within 1 month">Within 1 month</option>
-                      <option value="1–3 months">1–3 months</option>
-                      <option value="3–6 months">3–6 months</option>
-                      <option value="More than 6 months">More than 6 months</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-sm text-slate-600 mb-1.5">
-                      Expected Duration
-                    </label>
-                    <select
-                      name="duration"
-                      value={form.duration}
-                      onChange={handleChange}
-                      className="w-full border border-gray-300 px-3.5 py-2.5 text-sm text-slate-800 outline-none focus:border-slate-800 transition bg-white"
-                    >
-                      <option value="">Select duration</option>
-                      <option value="3–6 months">3–6 months</option>
-                      <option value="6–12 months">6–12 months</option>
-                      <option value="12–18 months">12–18 months</option>
-                      <option value="More than 18 months">More than 18 months</option>
-                      <option value="Not sure yet">Not sure yet</option>
-                    </select>
-                  </div>
+  <label className="block text-sm text-slate-600 mb-1.5">
+    Expected Start Time
+  </label>
+  <select
+    name="preferredTimeline"
+    value={form.preferredTimeline}
+    onChange={handleChange}
+    className="w-full border border-gray-300 px-3.5 py-2.5 text-sm text-slate-800 outline-none focus:border-slate-800 transition bg-white"
+  >
+    <option value="">Select expected start</option>
+    <option value="Immediately">Immediately</option>
+    <option value="Within 1 month">Within 1 month</option>
+    <option value="1–3 months">1–3 months</option>
+    <option value="3–6 months">3–6 months</option>
+    <option value="More than 6 months">More than 6 months</option>
+  </select>
+</div>
                 </div>
 
                 {/* Budget */}
